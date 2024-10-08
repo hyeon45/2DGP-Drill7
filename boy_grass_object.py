@@ -5,7 +5,6 @@ import random
 # Game object class here
 class Grass:
     def __init__(self):
-        #생성자를 이용하여 객체의 초기 상태를 유지함
         self.image = load_image('grass.png')
 
     def update(self):
